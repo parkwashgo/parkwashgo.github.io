@@ -1,0 +1,190 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.topbar > li {
+    float: left;
+}
+
+.topbarItem {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size:16px;
+}
+
+.list{
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 16px;
+    margin-top: 24px;
+}
+.list li {
+    margin-top: 12px;
+}
+
+.topbarLeft li {
+    float: left;
+    
+}
+
+.topbarRight li {
+    
+    float: right;
+    
+}
+
+.main {
+
+
+}
+
+.panel::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.panel {
+    background-image: url("image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.panelLeft {
+float: left;
+width:50%;
+background-color: #20303f;
+color:white;
+}
+
+.panelLeftFull{
+    width: 100%;
+}
+
+.panelLeftContent {
+    padding:10%;
+    padding-top:48px;
+    padding-bottom:48px;
+}
+
+.listBox {
+    list-style-type: none;
+    margin-top:12px;
+}
+
+.listBox li {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.panelWhite{
+    background-color: white;
+    color:black;
+}
+
+.panelRight {
+float:right;
+width:50%;
+}
+
+h2 {
+    margin-top: 12px;
+    font-size:28px;
+}
+
+h3 {
+    margin-top: 24px;
+    font-size:18px;
+}
+
+
+p {
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+td{
+    padding: 12px;
+    
+    
+}
+.mobileOnly{
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .panelLeft {
+        width:100%;
+    }
+    .mobileOnly{
+        display: block;
+    }
+    td{
+        display: block;
+    }
+}
+
+img{
+    margin-top:12px;
+    max-width: 100%;;
+}
