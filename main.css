@@ -63,6 +63,7 @@ p {
     border-bottom: 8px solid #489d3f;
 }
 
+
 .topbarRight .green
 {
     color: #489d3f;
@@ -105,6 +106,8 @@ p {
     float: left;
     
 }
+
+
 
 .topbarRight li {
     
@@ -236,6 +239,19 @@ td{
         display: block;
         width: 100%;
     }
+
+    .topbarLeft li {
+        float: left;
+        width:100%;
+    }
+
+    .topbarRight li {
+        display: block;
+        width: 100%;
+        margin-top:1px;
+    }
+
+
 }
 
 img{
