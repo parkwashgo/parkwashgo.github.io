@@ -56,6 +56,13 @@ body {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    border-bottom: 8px solid #489d3f;
+}
+
+.topbarRight .green
+{
+    color: #489d3f;
+    font-weight: 600;
 }
 
 .topbar > li {
@@ -68,18 +75,27 @@ body {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-    font-size:16px;
+    font-size:18px;
 }
 
 .list{
     list-style-type: disc;
     list-style-position: inside;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 24px;
+    padding:12px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    width: 100%;
 }
 .list li {
-    margin-top: 12px;
+
+    margin-top: 18px;
+    list-style: none;
+    font-weight: 600;
 }
+
+
 
 .topbarLeft li {
     float: left;
@@ -89,6 +105,9 @@ body {
 .topbarRight li {
     
     float: right;
+    vertical-align: middle;
+    margin-top:22px;
+
     
 }
 
@@ -130,11 +149,17 @@ color:white;
 .listBox {
     list-style-type: none;
     margin-top:12px;
+    padding-left:12px;
+    background: rgba(0, 0, 0, 0.1);
+    width: auto;
+    
 }
 
 .listBox li {
     margin-top: 5px;
     font-size: 12px;
+    
+    
 }
 
 .panelWhite{
@@ -155,6 +180,7 @@ h2 {
 h3 {
     margin-top: 24px;
     font-size:18px;
+    font-weight: bold;
 }
 
 
@@ -187,4 +213,20 @@ td{
 img{
     margin-top:12px;
     max-width: 100%;;
+}
+
+.bookLink{
+    text-decoration: none;
+
+}
+
+.bookButton{
+    font-size:18px;
+    color: white;
+    padding: 12px;
+    margin-top:24px;
+    width:100%;
+    text-align: center;
+    background-color: #489d3f;
+    font-weight: 600;
 }
