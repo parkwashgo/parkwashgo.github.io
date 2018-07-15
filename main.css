@@ -250,6 +250,10 @@ td{
         width: 100%;
         margin-top:1px;
     }
+    .topbarItem
+    {
+        padding: 6px 20px;
+    }
 
 
 }
